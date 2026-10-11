@@ -1,0 +1,17 @@
+# Python 3.12, installed into .venv (see env.ps1).
+# torch / torchaudio come from the CUDA index, install them first:
+#   python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# frame rendering
+pillow
+numpy
+scipy
+
+# audio analysis: beats, onsets, RMS envelope
+librosa
+soundfile
+
+# word-level lyric timing (Whisper + forced alignment) and vocal separation
+stable-ts
+openai-whisper
+demucs

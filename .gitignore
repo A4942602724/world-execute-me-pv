@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+.cache/
+out/
+work/
+input/
+assets/
+reference/
+__pycache__/
+*.pyc
+*.mp4
+*.mp3
+*.exr
+*.glb

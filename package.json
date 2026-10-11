@@ -1,0 +1,9 @@
+{
+  "name": "code-rendered-pv",
+  "private": true,
+  "type": "module",
+  "description": "Screenshots per-frame HTML pages with Playwright for the code-rendered PV.",
+  "dependencies": {
+    "playwright": "^1.64.0"
+  }
+}
